@@ -8,22 +8,33 @@ interface MainLayoutProps {
 }
 
 export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
-  const { t } = useLanguage();
+  const { t, language, isRTL } = useLanguage();
 
   return (
-    <div className="flex min-h-screen flex-col">
-      {/* Skip to main content link for accessibility */}
+    <div 
+      className="flex min-h-screen flex-col"
+      lang={language}
+      dir={isRTL ? 'rtl' : 'ltr'}
+    >
+      {/* Skip to main content link for accessibility - Mada compliant */}
       <a
         href="#main-content"
-        className="skip-link"
+        className="skip-to-content focus-enhanced"
+        aria-label={t('header.skipToContent')}
       >
         {t('header.skipToContent')}
       </a>
 
       <Navbar />
 
-      {/* Add padding top to account for fixed navbar */}
-      <main id="main-content" className="flex-1" tabIndex={-1}>
+      {/* Main content area with proper ARIA landmark */}
+      <main 
+        id="main-content" 
+        className="flex-1" 
+        tabIndex={-1}
+        role="main"
+        aria-label={t('header.skipToContent')}
+      >
         {children}
       </main>
 
