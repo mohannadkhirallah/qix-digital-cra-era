@@ -7,6 +7,7 @@ import { LanguageProvider } from "@/shared/i18n/LanguageContext";
 import { MainLayout } from "@/presentation/layout/MainLayout";
 import { HomePage } from "@/presentation/pages/Home/HomePage";
 import { AboutPage } from "@/presentation/pages/About/AboutPage";
+import { WhyPeerPage } from "@/presentation/pages/WhyPeer/WhyPeerPage";
 import { NotFoundPage } from "@/presentation/pages/NotFound/NotFoundPage";
 
 // Placeholder pages - to be implemented
@@ -34,7 +35,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<AboutPage />} />
-              <Route path="/why-peer" element={<PlaceholderPage title="Why Peer With QIX" />} />
+              <Route path="/why-peer" element={<WhyPeerPage />} />
               <Route path="/participants" element={<PlaceholderPage title="Participants & Partners" />} />
               <Route path="/connect" element={<PlaceholderPage title="How to Connect" />} />
               <Route path="/policies" element={<PlaceholderPage title="Policies & Governance" />} />
