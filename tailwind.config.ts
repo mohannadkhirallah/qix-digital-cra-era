@@ -59,16 +59,25 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        gold: "hsl(var(--gold-accent))",
+        gold: "hsl(var(--gold))",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        xl: "1rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
       },
       fontFamily: {
-        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
-        arabic: ['Inter', 'Noto Sans Arabic', '-apple-system', 'sans-serif'],
+        sans: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        arabic: ['Plus Jakarta Sans', 'Noto Sans Arabic', 'sans-serif'],
+      },
+      boxShadow: {
+        'glow': '0 0 40px -10px hsl(var(--primary) / 0.4)',
+        'glow-lg': '0 0 60px -15px hsl(var(--primary) / 0.5)',
+        'gold-glow': '0 0 40px -10px hsl(var(--gold) / 0.5)',
+        'inner-glow': 'inset 0 2px 20px 0 hsl(var(--primary) / 0.1)',
       },
       keyframes: {
         "accordion-down": {
@@ -79,29 +88,16 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "fade-in": {
-          from: { opacity: "0" },
-          to: { opacity: "1" },
-        },
-        "slide-up": {
-          from: { opacity: "0", transform: "translateY(20px)" },
-          to: { opacity: "1", transform: "translateY(0)" },
-        },
-        "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 0 0 hsl(var(--secondary) / 0.4)" },
-          "50%": { boxShadow: "0 0 20px 10px hsl(var(--secondary) / 0)" },
-        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "fade-in": "fade-in 0.5s ease-out forwards",
-        "slide-up": "slide-up 0.6s ease-out forwards",
-        "pulse-glow": "pulse-glow 2s ease-in-out infinite",
       },
       backgroundImage: {
-        "hero-gradient": "linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 100%)",
-        "card-gradient": "linear-gradient(180deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%)",
+        "hero-gradient": "linear-gradient(135deg, hsl(var(--hero-start)) 0%, hsl(var(--hero-end)) 100%)",
+        "hero-radial": "radial-gradient(ellipse at 30% 0%, hsl(var(--primary-light) / 0.3) 0%, transparent 50%)",
+        "gold-gradient": "linear-gradient(135deg, hsl(var(--gold)) 0%, hsl(40 85% 45%) 100%)",
+        "card-shine": "linear-gradient(135deg, transparent 0%, hsl(var(--primary) / 0.05) 50%, transparent 100%)",
       },
     },
   },
