@@ -42,7 +42,6 @@ const App = () => (
               <Route path="/participants" element={<ParticipantsPage />} />
               <Route path="/connect" element={<ConnectPage />} />
               <Route path="/policies" element={<PoliciesPage />} />
-              <Route path="/resources" element={<PlaceholderPage title="Resources & Documents" />} />
               <Route path="/contact" element={<PlaceholderPage title="Contact & NOC" />} />
               <Route path="/privacy" element={<PlaceholderPage title="Privacy Policy" />} />
               <Route path="/terms" element={<PlaceholderPage title="Terms of Use" />} />
