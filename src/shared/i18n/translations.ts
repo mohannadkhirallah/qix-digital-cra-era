@@ -11,7 +11,7 @@ export const translations: Translations = {
   // Navigation
   'nav.home': { en: 'Home', ar: 'الرئيسية' },
   'nav.about': { en: 'About', ar: 'من نحن' },
-  'nav.whyPeer': { en: 'Why Peer With QIX', ar: 'لماذا التبادل مع QIX' },
+  'nav.whyPeer': { en: 'Why Peer', ar: 'لماذا التبادل' },
   'nav.participants': { en: 'Participants & Partners', ar: 'المشاركون والشركاء' },
   'nav.connect': { en: 'How to Connect', ar: 'كيفية الاتصال' },
   'nav.policies': { en: 'Policies & Governance', ar: 'السياسات والحوكمة' },
@@ -140,9 +140,9 @@ export const translations: Translations = {
   'about.cta.desc': { en: 'Learn more about becoming a QIX participant and join Qatar\'s growing Internet exchange ecosystem.', ar: 'تعرف على المزيد حول أن تصبح مشاركاً في QIX وانضم إلى نظام تبادل الإنترنت المتنامي في قطر.' },
 
   // Why Peer Page
-  'whyPeer.title': { en: 'Why Peer at QIX', ar: 'لماذا التبادل مع QIX' },
-  'whyPeer.subtitle': { en: 'Discover why ISPs, mobile operators, cloud providers, CDNs, government networks, and enterprises choose to peer at Qatar Internet Exchange instead of relying solely on IP transit.', ar: 'اكتشف لماذا يختار مزودو خدمة الإنترنت ومشغلو الهاتف المحمول ومزودو السحابة و CDN والشبكات الحكومية والشركات التبادل مع QIX بدلاً من الاعتماد فقط على عبور IP.' },
-  'whyPeer.breadcrumb.whyPeer': { en: 'Why Peer at QIX', ar: 'لماذا التبادل مع QIX' },
+  'whyPeer.title': { en: 'Why Peer', ar: 'لماذا التبادل' },
+  'whyPeer.subtitle': { en: 'Discover why ISPs, mobile operators, cloud providers, CDNs, government networks, and enterprises choose to peer at Qatar Internet Exchange instead of relying solely on IP transit.', ar: 'اكتشف لماذا يختار مزودو خدمة الإنترنت ومشغلو الهاتف المحمول ومزودو السحابة و CDN والشبكات الحكومية والشركات التبادل مع نقطة تبادل الإنترنت بدلاً من الاعتماد فقط على عبور IP.' },
+  'whyPeer.breadcrumb.whyPeer': { en: 'Why Peer', ar: 'لماذا التبادل' },
 
   // Why Peer - What is Peering
   'whyPeer.peering.badge': { en: 'Understanding Peering', ar: 'فهم التبادل' },
@@ -156,7 +156,7 @@ export const translations: Translations = {
 
   // Why Peer - Benefits
   'whyPeer.benefits.badge': { en: 'Key Benefits', ar: 'الفوائد الرئيسية' },
-  'whyPeer.benefits.title': { en: 'Benefits of Peering at QIX', ar: 'فوائد التبادل مع QIX' },
+  'whyPeer.benefits.title': { en: 'Benefits of Peering', ar: 'فوائد التبادل' },
   'whyPeer.benefits.subtitle': { en: 'Realize tangible business and technical advantages by connecting to Qatar\'s national Internet Exchange Point', ar: 'حقق مزايا تجارية وتقنية ملموسة من خلال الاتصال بنقطة تبادل الإنترنت الوطنية في قطر' },
   'whyPeer.benefits.latency.title': { en: 'Lower Latency for Local Users', ar: 'زمن استجابة أقل للمستخدمين المحليين' },
   'whyPeer.benefits.latency.desc': { en: 'Direct local peering eliminates international round-trips, delivering sub-millisecond response times for Qatar-to-Qatar traffic.', ar: 'التبادل المحلي المباشر يلغي الرحلات الدولية، ويوفر أوقات استجابة أقل من ميلي ثانية لحركة المرور داخل قطر.' },
@@ -173,8 +173,8 @@ export const translations: Translations = {
 
   // Why Peer - Audience
   'whyPeer.audience.badge': { en: 'Target Participants', ar: 'المشاركون المستهدفون' },
-  'whyPeer.audience.title': { en: 'Who Should Peer at QIX?', ar: 'من يجب أن يتبادل مع QIX؟' },
-  'whyPeer.audience.subtitle': { en: 'QIX welcomes a diverse range of network operators and organizations looking to enhance their connectivity in Qatar', ar: 'ترحب QIX بمجموعة متنوعة من مشغلي الشبكات والمنظمات التي تتطلع إلى تعزيز اتصالها في قطر' },
+  'whyPeer.audience.title': { en: 'Who Should Peer?', ar: 'من يجب أن يتبادل؟' },
+  'whyPeer.audience.subtitle': { en: 'We welcome a diverse range of network operators and organizations looking to enhance their connectivity in Qatar', ar: 'نرحب بمجموعة متنوعة من مشغلي الشبكات والمنظمات التي تتطلع إلى تعزيز اتصالها في قطر' },
   'whyPeer.audience.isp.title': { en: 'Internet Service Providers', ar: 'مزودو خدمة الإنترنت' },
   'whyPeer.audience.isp.desc': { en: 'Improve service quality for subscribers by peering locally and reducing reliance on expensive international transit.', ar: 'تحسين جودة الخدمة للمشتركين من خلال التبادل المحلي وتقليل الاعتماد على العبور الدولي المكلف.' },
   'whyPeer.audience.mno.title': { en: 'Mobile Network Operators', ar: 'مشغلو شبكات الهاتف المحمول' },
@@ -207,7 +207,7 @@ export const translations: Translations = {
   // Why Peer - Use Cases
   'whyPeer.useCases.badge': { en: 'Real-World Scenarios', ar: 'سيناريوهات واقعية' },
   'whyPeer.useCases.title': { en: 'Typical Use Cases', ar: 'حالات الاستخدام النموذجية' },
-  'whyPeer.useCases.subtitle': { en: 'See how different organizations benefit from peering at QIX', ar: 'شاهد كيف تستفيد المنظمات المختلفة من التبادل مع QIX' },
+  'whyPeer.useCases.subtitle': { en: 'See how different organizations benefit from peering', ar: 'شاهد كيف تستفيد المنظمات المختلفة من التبادل' },
   'whyPeer.useCases.isp.title': { en: 'National ISP Improves Streaming', ar: 'مزود خدمة الإنترنت الوطني يحسن البث' },
   'whyPeer.useCases.isp.desc': { en: 'A major Qatari ISP connects to QIX and peers with local content providers. Their subscribers now enjoy buffer-free streaming and faster downloads as traffic no longer routes through international links. Customer complaints drop significantly.', ar: 'يتصل مزود خدمة إنترنت قطري كبير بـ QIX ويتبادل مع مزودي المحتوى المحليين. يستمتع المشتركون الآن بالبث بدون تخزين مؤقت وتنزيلات أسرع حيث لم تعد حركة المرور تمر عبر الروابط الدولية. تنخفض شكاوى العملاء بشكل كبير.' },
   'whyPeer.useCases.government.title': { en: 'Government Network Exchange', ar: 'تبادل الشبكة الحكومية' },
@@ -218,7 +218,7 @@ export const translations: Translations = {
   'whyPeer.useCases.enterprise.desc': { en: 'A large financial institution connects to QIX and gains direct access to cloud providers also present at the exchange. Their trading systems and SaaS applications now operate with minimal latency.', ar: 'تتصل مؤسسة مالية كبيرة بـ QIX وتحصل على وصول مباشر إلى مزودي السحابة الموجودين أيضاً في التبادل. تعمل أنظمة التداول وتطبيقات SaaS الخاصة بهم الآن بأقل زمن وصول.' },
 
   // Why Peer - CTA
-  'whyPeer.cta.title': { en: 'Ready to realize the benefits of peering at QIX?', ar: 'هل أنت مستعد لتحقيق فوائد التبادل مع QIX؟' },
+  'whyPeer.cta.title': { en: 'Ready to realize the benefits of peering?', ar: 'هل أنت مستعد لتحقيق فوائد التبادل؟' },
   'whyPeer.cta.subtitle': { en: 'Join Qatar\'s premier Internet Exchange Point and transform your network\'s performance, reduce costs, and enhance resilience.', ar: 'انضم إلى نقطة تبادل الإنترنت الرائدة في قطر وحوّل أداء شبكتك وقلل التكاليف وعزز المرونة.' },
   'whyPeer.cta.connect': { en: 'How to Connect', ar: 'كيفية الاتصال' },
   'whyPeer.cta.participants': { en: 'View Participants', ar: 'عرض المشاركين' },
