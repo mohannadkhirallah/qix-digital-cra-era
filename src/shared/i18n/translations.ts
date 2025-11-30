@@ -286,6 +286,91 @@ export const translations: Translations = {
   'participants.cta.connect': { en: 'How to Connect', ar: 'كيفية الاتصال' },
   'participants.cta.contact': { en: 'Contact QIX', ar: 'اتصل بـ QIX' },
 
+  // How to Connect Page
+  'connect.title': { en: 'How to Connect to QIX', ar: 'كيفية الاتصال بـ QIX' },
+  'connect.subtitle': { en: 'This guide describes the process and requirements for connecting your network—whether you\'re an ISP, Mobile Operator, Government entity, Cloud provider, or Enterprise—to Qatar Internet Exchange.', ar: 'يصف هذا الدليل عملية ومتطلبات توصيل شبكتك - سواء كنت مزود خدمة إنترنت أو مشغل هاتف محمول أو جهة حكومية أو مزود سحابة أو مؤسسة - بنقطة قطر لتبادل الإنترنت.' },
+  'connect.breadcrumb.connect': { en: 'How to Connect', ar: 'كيفية الاتصال' },
+
+  // Connect - Steps
+  'connect.steps.badge': { en: 'Connection Process', ar: 'عملية الاتصال' },
+  'connect.steps.title': { en: 'Four Steps to Connect', ar: 'أربع خطوات للاتصال' },
+  'connect.steps.subtitle': { en: 'Follow our streamlined onboarding process to become a QIX participant', ar: 'اتبع عملية التسجيل المبسطة لدينا لتصبح مشاركاً في QIX' },
+  'connect.steps.nav': { en: 'Connection steps navigation', ar: 'التنقل في خطوات الاتصال' },
+  'connect.steps.step1.title': { en: 'Review Policies & Requirements', ar: 'مراجعة السياسات والمتطلبات' },
+  'connect.steps.step1.desc': { en: 'Review QIX peering policies, technical requirements, and ensure your network meets the eligibility criteria.', ar: 'راجع سياسات التبادل في QIX والمتطلبات التقنية وتأكد من أن شبكتك تستوفي معايير الأهلية.' },
+  'connect.steps.step2.title': { en: 'Submit Application', ar: 'تقديم الطلب' },
+  'connect.steps.step2.desc': { en: 'Complete and submit the QIX membership/peering application form with your organization and technical details.', ar: 'أكمل وقدم نموذج طلب العضوية/التبادل في QIX مع تفاصيل مؤسستك والتفاصيل التقنية.' },
+  'connect.steps.step3.title': { en: 'Technical Coordination', ar: 'التنسيق التقني' },
+  'connect.steps.step3.desc': { en: 'Work with QIX NOC to arrange physical connectivity, configure BGP sessions, and complete testing.', ar: 'اعمل مع NOC في QIX لترتيب الاتصال المادي وتكوين جلسات BGP وإكمال الاختبار.' },
+  'connect.steps.step4.title': { en: 'Go Live on QIX', ar: 'ابدأ العمل على QIX' },
+  'connect.steps.step4.desc': { en: 'Once testing is complete, your network goes live and you can start exchanging traffic with other participants.', ar: 'بمجرد اكتمال الاختبار، تصبح شبكتك جاهزة ويمكنك البدء في تبادل حركة المرور مع المشاركين الآخرين.' },
+
+  // Connect - Requirements
+  'connect.requirements.badge': { en: 'Prerequisites', ar: 'المتطلبات المسبقة' },
+  'connect.requirements.title': { en: 'Technical Requirements', ar: 'المتطلبات التقنية' },
+  'connect.requirements.subtitle': { en: 'Ensure your network meets these requirements before applying to connect to QIX', ar: 'تأكد من أن شبكتك تستوفي هذه المتطلبات قبل التقدم للاتصال بـ QIX' },
+  'connect.requirements.asn.title': { en: 'Public ASN', ar: 'ASN عام' },
+  'connect.requirements.asn.desc': { en: 'A publicly registered Autonomous System Number (ASN) from a Regional Internet Registry (RIR).', ar: 'رقم نظام مستقل (ASN) مسجل علنياً من سجل إنترنت إقليمي (RIR).' },
+  'connect.requirements.ip.title': { en: 'IP Addressing', ar: 'عنونة IP' },
+  'connect.requirements.ip.desc': { en: 'Routable IPv4 and/or IPv6 address prefixes that you intend to announce at QIX.', ar: 'بادئات عناوين IPv4 و/أو IPv6 قابلة للتوجيه التي تنوي الإعلان عنها في QIX.' },
+  'connect.requirements.bgp.title': { en: 'BGP Capability', ar: 'قدرة BGP' },
+  'connect.requirements.bgp.desc': { en: 'Ability to establish BGP sessions with QIX route servers and/or bilateral peers.', ar: 'القدرة على إنشاء جلسات BGP مع خوادم مسارات QIX و/أو النظراء الثنائيين.' },
+  'connect.requirements.physical.title': { en: 'Physical Connectivity', ar: 'الاتصال المادي' },
+  'connect.requirements.physical.desc': { en: 'Ability to establish a cross-connect to the QIX switch at our datacenter facility.', ar: 'القدرة على إنشاء اتصال متقاطع إلى مفتاح QIX في منشأة مركز البيانات لدينا.' },
+  'connect.requirements.interface.title': { en: 'Interface Standards', ar: 'معايير الواجهة' },
+  'connect.requirements.interface.desc': { en: 'Standard Ethernet interfaces (1GbE, 10GbE, or 100GbE) with appropriate optics.', ar: 'واجهات إيثرنت قياسية (1GbE أو 10GbE أو 100GbE) مع البصريات المناسبة.' },
+  'connect.requirements.policy.title': { en: 'Routing Policy', ar: 'سياسة التوجيه' },
+  'connect.requirements.policy.desc': { en: 'Documented routing policy and willingness to adhere to QIX peering guidelines.', ar: 'سياسة توجيه موثقة واستعداد للالتزام بإرشادات التبادل في QIX.' },
+
+  // Connect - Ports
+  'connect.ports.title': { en: 'Available Port Speeds', ar: 'سرعات المنافذ المتاحة' },
+  'connect.ports.1g': { en: 'Entry-level connectivity', ar: 'اتصال مستوى الدخول' },
+  'connect.ports.10g': { en: 'Standard connectivity', ar: 'اتصال قياسي' },
+  'connect.ports.100g': { en: 'High-capacity connectivity', ar: 'اتصال عالي السعة' },
+
+  // Connect - Documents
+  'connect.documents.badge': { en: 'Downloads', ar: 'التنزيلات' },
+  'connect.documents.title': { en: 'Documents & Policies', ar: 'المستندات والسياسات' },
+  'connect.documents.subtitle': { en: 'Review and download the required documents for connecting to QIX', ar: 'راجع وحمّل المستندات المطلوبة للاتصال بـ QIX' },
+  'connect.documents.download': { en: 'Download', ar: 'تحميل' },
+  'connect.documents.policy.title': { en: 'QIX Peering Policy', ar: 'سياسة التبادل في QIX' },
+  'connect.documents.policy.desc': { en: 'Official peering policy document outlining terms, conditions, and operational guidelines for QIX participants.', ar: 'وثيقة سياسة التبادل الرسمية التي تحدد الشروط والأحكام والإرشادات التشغيلية للمشاركين في QIX.' },
+  'connect.documents.application.title': { en: 'Membership Application Form', ar: 'نموذج طلب العضوية' },
+  'connect.documents.application.desc': { en: 'Complete this form to apply for QIX membership. Includes organization details and technical information requirements.', ar: 'أكمل هذا النموذج للتقدم بطلب عضوية QIX. يتضمن تفاصيل المنظمة ومتطلبات المعلومات التقنية.' },
+  'connect.documents.technical.title': { en: 'Technical Guide', ar: 'الدليل التقني' },
+  'connect.documents.technical.desc': { en: 'Detailed technical specifications, BGP configuration examples, and best practices for connecting to QIX.', ar: 'المواصفات التقنية المفصلة وأمثلة تكوين BGP وأفضل الممارسات للاتصال بـ QIX.' },
+
+  // Connect - Coordination
+  'connect.coordination.badge': { en: 'Timeline', ar: 'الجدول الزمني' },
+  'connect.coordination.title': { en: 'Coordination & Lead Times', ar: 'التنسيق والمهل الزمنية' },
+  'connect.coordination.p1': { en: 'Once your application is approved, the QIX operations team will coordinate with you to establish physical connectivity. This includes arranging cross-connects at the datacenter and scheduling configuration and testing windows.', ar: 'بمجرد الموافقة على طلبك، سيقوم فريق عمليات QIX بالتنسيق معك لإنشاء الاتصال المادي. يشمل ذلك ترتيب الاتصالات المتقاطعة في مركز البيانات وجدولة نوافذ التكوين والاختبار.' },
+  'connect.coordination.p2': { en: 'Lead times may vary depending on cross-connect provisioning and your internal readiness. The QIX NOC team is available to assist throughout the process.', ar: 'قد تختلف المهل الزمنية حسب توفير الاتصال المتقاطع وجاهزيتك الداخلية. فريق NOC في QIX متاح للمساعدة طوال العملية.' },
+  'connect.coordination.timeline1': { en: 'Application Review', ar: 'مراجعة الطلب' },
+  'connect.coordination.timeline1Value': { en: '3-5 business days', ar: '3-5 أيام عمل' },
+  'connect.coordination.timeline2': { en: 'Cross-Connect Setup', ar: 'إعداد الاتصال المتقاطع' },
+  'connect.coordination.timeline2Value': { en: '1-2 weeks', ar: '1-2 أسابيع' },
+  'connect.coordination.timeline3': { en: 'Testing & Go-Live', ar: 'الاختبار والتشغيل' },
+  'connect.coordination.timeline3Value': { en: '1-3 business days', ar: '1-3 أيام عمل' },
+  'connect.coordination.support.title': { en: 'Dedicated Support', ar: 'دعم مخصص' },
+  'connect.coordination.support.desc': { en: 'Our experienced operations team will guide you through every step of the connection process.', ar: 'سيرشدك فريق العمليات ذو الخبرة لدينا خلال كل خطوة من عملية الاتصال.' },
+  'connect.coordination.support.item1': { en: 'Assigned technical contact for your connection', ar: 'جهة اتصال تقنية معينة لاتصالك' },
+  'connect.coordination.support.item2': { en: '24/7 NOC availability for urgent issues', ar: 'توفر NOC على مدار الساعة للمشكلات العاجلة' },
+  'connect.coordination.support.item3': { en: 'Comprehensive onboarding documentation', ar: 'وثائق تأهيل شاملة' },
+
+  // Connect - Support
+  'connect.support.title': { en: 'Need Help With Your Connection?', ar: 'هل تحتاج مساعدة في اتصالك؟' },
+  'connect.support.subtitle': { en: 'Our team is ready to answer your questions and guide you through the connection process', ar: 'فريقنا مستعد للإجابة على أسئلتك وإرشادك خلال عملية الاتصال' },
+  'connect.support.general.title': { en: 'General Enquiries', ar: 'استفسارات عامة' },
+  'connect.support.general.desc': { en: 'For questions about membership, eligibility, and the application process.', ar: 'للأسئلة حول العضوية والأهلية وعملية التقديم.' },
+  'connect.support.noc.title': { en: 'Technical / NOC Support', ar: 'الدعم التقني / NOC' },
+  'connect.support.noc.desc': { en: 'For technical questions, connectivity issues, and BGP configuration support.', ar: 'للأسئلة التقنية ومشكلات الاتصال ودعم تكوين BGP.' },
+
+  // Connect - CTA
+  'connect.cta.title': { en: 'Ready to start your connection journey?', ar: 'هل أنت مستعد لبدء رحلة اتصالك؟' },
+  'connect.cta.subtitle': { en: 'See who\'s already connected and join the growing QIX ecosystem today.', ar: 'شاهد من هو متصل بالفعل وانضم إلى نظام QIX البيئي المتنامي اليوم.' },
+  'connect.cta.participants': { en: 'View Participants', ar: 'عرض المشاركين' },
+  'connect.cta.contact': { en: 'Contact QIX', ar: 'اتصل بـ QIX' },
+
   // Common
   'common.learnMore': { en: 'Learn More', ar: 'اعرف المزيد' },
   'common.readMore': { en: 'Read More', ar: 'قراءة المزيد' },
