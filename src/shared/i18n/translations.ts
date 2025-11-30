@@ -223,6 +223,69 @@ export const translations: Translations = {
   'whyPeer.cta.connect': { en: 'How to Connect', ar: 'كيفية الاتصال' },
   'whyPeer.cta.participants': { en: 'View Participants', ar: 'عرض المشاركين' },
 
+  // Participants Page
+  'participants.title': { en: 'Participants', ar: 'المشاركون' },
+  'participants.subtitle': { en: 'Browse the networks connected to Qatar Internet Exchange. Our ecosystem includes Internet Service Providers, Mobile Network Operators, Government entities, Cloud and CDN providers, and Enterprises.', ar: 'تصفح الشبكات المتصلة بنقطة قطر لتبادل الإنترنت. يشمل نظامنا البيئي مزودي خدمة الإنترنت ومشغلي شبكات الهاتف المحمول والجهات الحكومية ومزودي السحابة و CDN والشركات.' },
+  'participants.breadcrumb.participants': { en: 'Participants', ar: 'المشاركون' },
+
+  // Participants - Stats
+  'participants.stats.label': { en: 'Participant statistics', ar: 'إحصائيات المشاركين' },
+  'participants.stats.total': { en: 'Total Participants', ar: 'إجمالي المشاركين' },
+  'participants.stats.categories': { en: 'Categories', ar: 'الفئات' },
+  'participants.stats.ipv6': { en: 'IPv6 Enabled', ar: 'مفعّل IPv6' },
+
+  // Participants - Filters
+  'participants.filter.heading': { en: 'Search and filter participants', ar: 'البحث وتصفية المشاركين' },
+  'participants.filter.searchLabel': { en: 'Search by name or ASN', ar: 'البحث بالاسم أو ASN' },
+  'participants.filter.searchPlaceholder': { en: 'Type participant name or ASN...', ar: 'اكتب اسم المشارك أو ASN...' },
+  'participants.filter.categoryLabel': { en: 'Filter by category', ar: 'تصفية حسب الفئة' },
+  'participants.filter.all': { en: 'All', ar: 'الكل' },
+
+  // Participants - Categories
+  'participants.category.isp': { en: 'ISP', ar: 'مزود إنترنت' },
+  'participants.category.mno': { en: 'Mobile Operator', ar: 'مشغل محمول' },
+  'participants.category.government': { en: 'Government', ar: 'حكومي' },
+  'participants.category.cloud': { en: 'Cloud / CDN', ar: 'سحابة / CDN' },
+  'participants.category.enterprise': { en: 'Enterprise', ar: 'مؤسسة' },
+  'participants.category.other': { en: 'Other', ar: 'أخرى' },
+
+  // Participants - Directory
+  'participants.directory.title': { en: 'Participants Directory', ar: 'دليل المشاركين' },
+  'participants.directory.caption': { en: 'List of networks connected to Qatar Internet Exchange (QIX)', ar: 'قائمة الشبكات المتصلة بنقطة قطر لتبادل الإنترنت (QIX)' },
+  'participants.directory.showing': { en: 'Showing', ar: 'عرض' },
+  'participants.directory.of': { en: 'of', ar: 'من' },
+  'participants.directory.participants': { en: 'participants', ar: 'مشاركين' },
+  'participants.directory.noResults': { en: 'No participants found matching your criteria.', ar: 'لم يتم العثور على مشاركين يطابقون معاييرك.' },
+
+  // Participants - Table Headers
+  'participants.table.organization': { en: 'Organization', ar: 'المنظمة' },
+  'participants.table.asn': { en: 'ASN', ar: 'ASN' },
+  'participants.table.category': { en: 'Category', ar: 'الفئة' },
+  'participants.table.ipv4': { en: 'IPv4', ar: 'IPv4' },
+  'participants.table.ipv6': { en: 'IPv6', ar: 'IPv6' },
+  'participants.table.status': { en: 'Status', ar: 'الحالة' },
+  'participants.table.supported': { en: 'Supported', ar: 'مدعوم' },
+  'participants.table.notSupported': { en: 'Not supported', ar: 'غير مدعوم' },
+
+  // Participants - Status
+  'participants.status.connected': { en: 'Connected', ar: 'متصل' },
+  'participants.status.implementing': { en: 'Implementing', ar: 'قيد التنفيذ' },
+
+  // Participants - Legend
+  'participants.legend.title': { en: 'Category Definitions', ar: 'تعريفات الفئات' },
+  'participants.legend.subtitle': { en: 'Understanding the different types of organizations in our ecosystem', ar: 'فهم أنواع المنظمات المختلفة في نظامنا البيئي' },
+  'participants.legend.isp': { en: 'Internet Service Providers offering connectivity to end users and businesses in Qatar.', ar: 'مزودو خدمة الإنترنت الذين يقدمون الاتصال للمستخدمين النهائيين والشركات في قطر.' },
+  'participants.legend.mno': { en: 'Mobile Network Operators providing cellular and mobile data services.', ar: 'مشغلو شبكات الهاتف المحمول الذين يقدمون خدمات الهاتف الخلوي والبيانات المحمولة.' },
+  'participants.legend.government': { en: 'Public sector networks including ministries, agencies, and state entities.', ar: 'شبكات القطاع العام بما في ذلك الوزارات والهيئات والجهات الحكومية.' },
+  'participants.legend.cloud': { en: 'Cloud providers and Content Delivery Networks serving content closer to users.', ar: 'مزودو السحابة وشبكات توصيل المحتوى التي تقدم المحتوى بالقرب من المستخدمين.' },
+  'participants.legend.enterprise': { en: 'Large enterprises, educational institutions, and major organizations.', ar: 'الشركات الكبيرة والمؤسسات التعليمية والمنظمات الكبرى.' },
+
+  // Participants - CTA
+  'participants.cta.title': { en: 'Want to see your network listed here?', ar: 'هل تريد رؤية شبكتك مدرجة هنا؟' },
+  'participants.cta.subtitle': { en: 'Join Qatar\'s premier Internet Exchange Point and become part of the growing ecosystem of connected networks.', ar: 'انضم إلى نقطة تبادل الإنترنت الرائدة في قطر وكن جزءاً من النظام البيئي المتنامي للشبكات المتصلة.' },
+  'participants.cta.connect': { en: 'How to Connect', ar: 'كيفية الاتصال' },
+  'participants.cta.contact': { en: 'Contact QIX', ar: 'اتصل بـ QIX' },
+
   // Common
   'common.learnMore': { en: 'Learn More', ar: 'اعرف المزيد' },
   'common.readMore': { en: 'Read More', ar: 'قراءة المزيد' },
