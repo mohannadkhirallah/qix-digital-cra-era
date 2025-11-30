@@ -113,6 +113,93 @@
     --gold: 40 80% 55%;
   }
 
+  /* HIGH CONTRAST MODE - MADA/WCAG Compliant */
+  .high-contrast {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --primary: 345 100% 20%;
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 345 100% 15%;
+    --primary-light: 345 100% 30%;
+    --secondary: 40 100% 35%;
+    --secondary-foreground: 0 0% 0%;
+    --accent: 0 0% 95%;
+    --accent-foreground: 0 0% 0%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+    --border: 0 0% 0%;
+    --input: 0 0% 70%;
+    --ring: 345 100% 20%;
+    --destructive: 0 100% 40%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 120 100% 25%;
+    --success-foreground: 0 0% 100%;
+    --warning: 45 100% 35%;
+    --warning-foreground: 0 0% 0%;
+    --info: 210 100% 35%;
+    --info-foreground: 0 0% 100%;
+    --gold: 40 100% 40%;
+    --hero-start: 345 100% 20%;
+    --hero-end: 345 100% 15%;
+  }
+
+  .high-contrast.dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --primary: 345 100% 60%;
+    --primary-foreground: 0 0% 0%;
+    --primary-dark: 345 100% 50%;
+    --primary-light: 345 100% 70%;
+    --secondary: 40 100% 60%;
+    --secondary-foreground: 0 0% 0%;
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 80%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 100%;
+    --border: 0 0% 100%;
+    --input: 0 0% 30%;
+    --ring: 345 100% 60%;
+    --destructive: 0 100% 60%;
+    --destructive-foreground: 0 0% 0%;
+    --success: 120 100% 50%;
+    --success-foreground: 0 0% 0%;
+    --warning: 45 100% 55%;
+    --warning-foreground: 0 0% 0%;
+    --info: 210 100% 60%;
+    --info-foreground: 0 0% 0%;
+    --gold: 40 100% 55%;
+    --hero-start: 345 100% 30%;
+    --hero-end: 345 100% 20%;
+  }
+
+  /* High contrast mode simplifies backgrounds */
+  .high-contrast .glass-card {
+    @apply bg-card border-2 border-border shadow-none;
+    backdrop-filter: none;
+  }
+
+  .high-contrast .gradient-text {
+    @apply bg-none text-primary;
+  }
+
+  /* Remove decorative gradients in high contrast */
+  .high-contrast [class*="bg-gradient"] {
+    background-image: none !important;
+  }
+
+  /* Stronger borders in high contrast */
+  .high-contrast .border {
+    @apply border-2;
+  }
+
   * {
     @apply border-border;
   }

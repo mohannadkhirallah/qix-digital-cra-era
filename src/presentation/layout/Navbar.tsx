@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowRight, Languages } from 'lucide-react';
 import { useLanguage } from '@/shared/i18n/LanguageContext';
 import { Button } from '@/presentation/components/ui/Button';
+import { AccessibilityToolbar } from '@/presentation/components/accessibility/AccessibilityToolbar';
 import { cn } from '@/lib/utils';
 
 interface NavItem {
@@ -45,6 +46,24 @@ export const Navbar: React.FC = () => {
         ? "bg-white/90 dark:bg-background/90 backdrop-blur-2xl shadow-xl" 
         : "bg-transparent"
     )}>
+      {/* Accessibility Toolbar - Top Banner */}
+      <div className={cn(
+        "transition-all duration-300 overflow-hidden",
+        scrolled 
+          ? "h-0 opacity-0" 
+          : "h-10 opacity-100 bg-primary-dark/90 backdrop-blur-sm border-b border-white/10"
+      )}>
+        <div className="section-container h-full flex items-center justify-between">
+          <span className={cn(
+            "text-xs text-white/70",
+            isRTL && "order-2"
+          )}>
+            {t('header.stateOfQatar')}
+          </span>
+          <AccessibilityToolbar variant="header" />
+        </div>
+      </div>
+
       <nav className="section-container" aria-label="Main navigation">
         <div className={cn(
           "flex items-center justify-between transition-all duration-500",
@@ -224,8 +243,14 @@ export const Navbar: React.FC = () => {
             </button>
           </div>
 
+          {/* Mobile Accessibility Controls */}
+          <div className="px-6 py-4 border-b border-border bg-muted/30">
+            <p className="text-xs font-medium text-muted-foreground mb-3">{t('a11y.toolbar.label')}</p>
+            <AccessibilityToolbar variant="floating" className="justify-start" />
+          </div>
+
           {/* Panel Content */}
-          <div className="p-6 space-y-2 overflow-y-auto" style={{ maxHeight: 'calc(100vh - 180px)' }}>
+          <div className="p-6 space-y-2 overflow-y-auto" style={{ maxHeight: 'calc(100vh - 260px)' }}>
             {navItems.map((item, index) => (
               <Link
                 key={item.href}
