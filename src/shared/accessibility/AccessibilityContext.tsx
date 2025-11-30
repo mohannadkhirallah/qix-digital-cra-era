@@ -9,6 +9,7 @@ interface AccessibilityContextType {
   increaseFontSize: () => void;
   decreaseFontSize: () => void;
   resetFontSize: () => void;
+  resetAll: () => void;
 }
 
 const AccessibilityContext = createContext<AccessibilityContextType | undefined>(undefined);
@@ -91,6 +92,13 @@ export const AccessibilityProvider: React.FC<AccessibilityProviderProps> = ({ ch
     setFontSize('normal');
   };
 
+  const resetAll = () => {
+    setHighContrast(false);
+    setFontSize('normal');
+    localStorage.removeItem('qix-high-contrast');
+    localStorage.removeItem('qix-font-size');
+  };
+
   return (
     <AccessibilityContext.Provider
       value={{
@@ -100,6 +108,7 @@ export const AccessibilityProvider: React.FC<AccessibilityProviderProps> = ({ ch
         increaseFontSize,
         decreaseFontSize,
         resetFontSize,
+        resetAll,
       }}
     >
       {children}
