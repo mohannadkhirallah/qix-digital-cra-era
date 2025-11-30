@@ -6,14 +6,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "@/shared/i18n/LanguageContext";
 import { MainLayout } from "@/presentation/layout/MainLayout";
 import { HomePage } from "@/presentation/pages/Home/HomePage";
+import { AboutPage } from "@/presentation/pages/About/AboutPage";
 import { NotFoundPage } from "@/presentation/pages/NotFound/NotFoundPage";
 
 // Placeholder pages - to be implemented
 const PlaceholderPage = ({ title }: { title: string }) => (
-  <div className="section-container py-16">
-    <div className="mx-auto max-w-3xl text-center">
-      <h1 className="mb-4 text-3xl font-bold text-foreground">{title}</h1>
-      <p className="text-muted-foreground">This page is under construction.</p>
+  <div className="pt-32 pb-16">
+    <div className="section-container">
+      <div className="mx-auto max-w-3xl text-center py-20">
+        <h1 className="mb-4 text-3xl font-bold text-foreground">{title}</h1>
+        <p className="text-muted-foreground">This page is under construction.</p>
+      </div>
     </div>
   </div>
 );
@@ -30,7 +33,7 @@ const App = () => (
           <MainLayout>
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/about" element={<PlaceholderPage title="About QIX" />} />
+              <Route path="/about" element={<AboutPage />} />
               <Route path="/why-peer" element={<PlaceholderPage title="Why Peer With QIX" />} />
               <Route path="/participants" element={<PlaceholderPage title="Participants & Partners" />} />
               <Route path="/connect" element={<PlaceholderPage title="How to Connect" />} />
@@ -40,7 +43,6 @@ const App = () => (
               <Route path="/privacy" element={<PlaceholderPage title="Privacy Policy" />} />
               <Route path="/terms" element={<PlaceholderPage title="Terms of Use" />} />
               <Route path="/accessibility" element={<PlaceholderPage title="Accessibility Statement" />} />
-              {/* Catch-all route */}
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </MainLayout>
