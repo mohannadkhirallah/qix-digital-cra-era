@@ -17,7 +17,6 @@ const navItems: NavItem[] = [
   { key: 'nav.participants', href: '/participants' },
   { key: 'nav.connect', href: '/connect' },
   { key: 'nav.policies', href: '/policies' },
-  { key: 'nav.resources', href: '/resources' },
 ];
 
 export const Navbar: React.FC = () => {
