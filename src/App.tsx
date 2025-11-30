@@ -9,6 +9,7 @@ import { HomePage } from "@/presentation/pages/Home/HomePage";
 import { AboutPage } from "@/presentation/pages/About/AboutPage";
 import { WhyPeerPage } from "@/presentation/pages/WhyPeer/WhyPeerPage";
 import { ParticipantsPage } from "@/presentation/pages/Participants/ParticipantsPage";
+import { ConnectPage } from "@/presentation/pages/Connect/ConnectPage";
 import { NotFoundPage } from "@/presentation/pages/NotFound/NotFoundPage";
 
 // Placeholder pages - to be implemented
@@ -38,7 +39,7 @@ const App = () => (
               <Route path="/about" element={<AboutPage />} />
               <Route path="/why-peer" element={<WhyPeerPage />} />
               <Route path="/participants" element={<ParticipantsPage />} />
-              <Route path="/connect" element={<PlaceholderPage title="How to Connect" />} />
+              <Route path="/connect" element={<ConnectPage />} />
               <Route path="/policies" element={<PlaceholderPage title="Policies & Governance" />} />
               <Route path="/resources" element={<PlaceholderPage title="Resources & Documents" />} />
               <Route path="/contact" element={<PlaceholderPage title="Contact & NOC" />} />
