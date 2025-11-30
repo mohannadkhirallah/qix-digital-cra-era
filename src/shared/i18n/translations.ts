@@ -29,11 +29,22 @@ export const translations: Translations = {
   'footer.privacy': { en: 'Privacy Policy', ar: 'سياسة الخصوصية' },
   'footer.terms': { en: 'Terms of Use', ar: 'شروط الاستخدام' },
   'footer.accessibility': { en: 'Accessibility', ar: 'إمكانية الوصول' },
+  'footer.accessibilityStatement': { en: 'WCAG 2.1 AA & Mada Compliant', ar: 'متوافق مع WCAG 2.1 AA ومدى' },
   'footer.quickLinks': { en: 'Quick Links', ar: 'روابط سريعة' },
   'footer.connect': { en: 'Connect With Us', ar: 'تواصل معنا' },
   'footer.contact': { en: 'Contact Information', ar: 'معلومات الاتصال' },
   'footer.generalEmail': { en: 'General Inquiries', ar: 'استفسارات عامة' },
   'footer.technicalEmail': { en: 'Technical Support', ar: 'الدعم الفني' },
+
+  // Accessibility
+  'a11y.newWindow': { en: 'Opens in a new window', ar: 'يفتح في نافذة جديدة' },
+  'a11y.externalLink': { en: 'External link', ar: 'رابط خارجي' },
+  'a11y.required': { en: 'Required field', ar: 'حقل مطلوب' },
+  'a11y.loading': { en: 'Loading...', ar: 'جاري التحميل...' },
+  'a11y.menuOpen': { en: 'Menu open', ar: 'القائمة مفتوحة' },
+  'a11y.menuClosed': { en: 'Menu closed', ar: 'القائمة مغلقة' },
+  'a11y.expandSection': { en: 'Expand section', ar: 'توسيع القسم' },
+  'a11y.collapseSection': { en: 'Collapse section', ar: 'طي القسم' },
 
   // Home Page
   'home.hero.badge': { en: 'Qatar\'s National Internet Exchange Point', ar: 'نقطة تبادل الإنترنت الوطنية في قطر' },
@@ -465,10 +476,6 @@ export const translations: Translations = {
   'common.submit': { en: 'Submit', ar: 'إرسال' },
   'common.cancel': { en: 'Cancel', ar: 'إلغاء' },
 
-  // Accessibility
-  'a11y.newWindow': { en: 'Opens in a new window', ar: 'يفتح في نافذة جديدة' },
-  'a11y.externalLink': { en: 'External link', ar: 'رابط خارجي' },
-  'a11y.menuOpen': { en: 'Open menu', ar: 'فتح القائمة' },
-  'a11y.menuClose': { en: 'Close menu', ar: 'إغلاق القائمة' },
+  // Additional Accessibility
   'a11y.networkIllustration': { en: 'Abstract illustration representing network connectivity and data exchange', ar: 'رسم توضيحي تجريدي يمثل اتصال الشبكة وتبادل البيانات' },
 };
