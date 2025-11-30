@@ -10,7 +10,7 @@ export interface Translations {
 export const translations: Translations = {
   // Navigation
   'nav.home': { en: 'Home', ar: 'الرئيسية' },
-  'nav.about': { en: 'About QIX', ar: 'عن QIX' },
+  'nav.about': { en: 'About', ar: 'من نحن' },
   'nav.whyPeer': { en: 'Why Peer With QIX', ar: 'لماذا التبادل مع QIX' },
   'nav.participants': { en: 'Participants & Partners', ar: 'المشاركون والشركاء' },
   'nav.connect': { en: 'How to Connect', ar: 'كيفية الاتصال' },
