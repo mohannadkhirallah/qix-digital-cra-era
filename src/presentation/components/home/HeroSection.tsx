@@ -10,7 +10,7 @@ export const HeroSection: React.FC = () => {
 
   return (
     <section 
-      className="relative min-h-[90vh] flex items-center overflow-hidden bg-hero-gradient"
+      className="relative min-h-[90vh] flex items-center overflow-hidden bg-hero-gradient pt-32 lg:pt-36"
       aria-labelledby="hero-title"
     >
       {/* Animated background elements */}
