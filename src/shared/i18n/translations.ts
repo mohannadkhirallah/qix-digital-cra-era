@@ -371,6 +371,92 @@ export const translations: Translations = {
   'connect.cta.participants': { en: 'View Participants', ar: 'عرض المشاركين' },
   'connect.cta.contact': { en: 'Contact QIX', ar: 'اتصل بـ QIX' },
 
+  // Policies & Documents Page
+  'policies.title': { en: 'Policies & Documents', ar: 'السياسات والمستندات' },
+  'policies.subtitle': { en: 'Access the central repository of QIX peering policies, acceptable use policies, technical guidelines, operational documents, and application forms.', ar: 'الوصول إلى المستودع المركزي لسياسات التبادل في QIX وسياسات الاستخدام المقبول والإرشادات التقنية والوثائق التشغيلية ونماذج الطلبات.' },
+  'policies.breadcrumb.policies': { en: 'Policies & Documents', ar: 'السياسات والمستندات' },
+
+  // Policies - Key Documents
+  'policies.key.badge': { en: 'Essential Reading', ar: 'قراءة أساسية' },
+  'policies.key.title': { en: 'Key Policies', ar: 'السياسات الرئيسية' },
+  'policies.key.subtitle': { en: 'The most important documents for understanding QIX membership and operations', ar: 'أهم المستندات لفهم عضوية QIX وعملياتها' },
+  'policies.key.essential': { en: 'Essential', ar: 'أساسي' },
+
+  // Policies - Filters
+  'policies.filter.heading': { en: 'Search and filter documents', ar: 'البحث وتصفية المستندات' },
+  'policies.filter.searchLabel': { en: 'Search documents', ar: 'البحث في المستندات' },
+  'policies.filter.searchPlaceholder': { en: 'Search by title or keyword...', ar: 'البحث بالعنوان أو الكلمة المفتاحية...' },
+  'policies.filter.categoryLabel': { en: 'Filter by category', ar: 'تصفية حسب الفئة' },
+  'policies.filter.all': { en: 'All', ar: 'الكل' },
+
+  // Policies - Categories
+  'policies.category.peering': { en: 'Peering Policy', ar: 'سياسة التبادل' },
+  'policies.category.acceptableUse': { en: 'Acceptable Use', ar: 'الاستخدام المقبول' },
+  'policies.category.technical': { en: 'Technical', ar: 'تقني' },
+  'policies.category.operational': { en: 'Operational', ar: 'تشغيلي' },
+  'policies.category.forms': { en: 'Forms', ar: 'نماذج' },
+
+  // Policies - Library
+  'policies.library.title': { en: 'QIX Document Library', ar: 'مكتبة مستندات QIX' },
+  'policies.library.showing': { en: 'Showing', ar: 'عرض' },
+  'policies.library.of': { en: 'of', ar: 'من' },
+  'policies.library.documents': { en: 'documents', ar: 'مستندات' },
+  'policies.library.noResults': { en: 'No documents found matching your criteria.', ar: 'لم يتم العثور على مستندات تطابق معاييرك.' },
+  'policies.download': { en: 'Download', ar: 'تحميل' },
+
+  // Policies - Document Titles & Descriptions
+  'policies.docs.peeringPolicy.title': { en: 'QIX Peering Policy', ar: 'سياسة التبادل في QIX' },
+  'policies.docs.peeringPolicy.desc': { en: 'Official peering policy document outlining terms, conditions, and operational guidelines for all QIX participants. Required reading before membership.', ar: 'وثيقة سياسة التبادل الرسمية التي تحدد الشروط والأحكام والإرشادات التشغيلية لجميع المشاركين في QIX. قراءة مطلوبة قبل العضوية.' },
+  'policies.docs.aup.title': { en: 'Acceptable Use Policy', ar: 'سياسة الاستخدام المقبول' },
+  'policies.docs.aup.desc': { en: 'Defines acceptable use of QIX infrastructure, prohibited activities, and participant responsibilities for maintaining network integrity.', ar: 'تحدد الاستخدام المقبول للبنية التحتية لـ QIX والأنشطة المحظورة ومسؤوليات المشاركين للحفاظ على سلامة الشبكة.' },
+  'policies.docs.technicalGuide.title': { en: 'Technical & Routing Guidelines', ar: 'الإرشادات التقنية والتوجيه' },
+  'policies.docs.technicalGuide.desc': { en: 'Detailed technical specifications, BGP configuration examples, route server usage, and best practices for connecting to QIX.', ar: 'المواصفات التقنية المفصلة وأمثلة تكوين BGP واستخدام خادم المسارات وأفضل الممارسات للاتصال بـ QIX.' },
+  'policies.docs.routingPolicy.title': { en: 'Routing Policy Document', ar: 'وثيقة سياسة التوجيه' },
+  'policies.docs.routingPolicy.desc': { en: 'Defines routing policies, prefix filtering, and BGP community usage standards for QIX participants.', ar: 'تحدد سياسات التوجيه وتصفية البادئات ومعايير استخدام مجتمع BGP للمشاركين في QIX.' },
+  'policies.docs.membershipApp.title': { en: 'Membership Application Form', ar: 'نموذج طلب العضوية' },
+  'policies.docs.membershipApp.desc': { en: 'Complete this form to apply for QIX membership. Includes organization details and technical information requirements.', ar: 'أكمل هذا النموذج للتقدم بطلب عضوية QIX. يتضمن تفاصيل المنظمة ومتطلبات المعلومات التقنية.' },
+  'policies.docs.portRequest.title': { en: 'Port Request Form', ar: 'نموذج طلب المنفذ' },
+  'policies.docs.portRequest.desc': { en: 'Form for requesting additional ports or port upgrades for existing QIX participants.', ar: 'نموذج لطلب منافذ إضافية أو ترقيات المنافذ للمشاركين الحاليين في QIX.' },
+  'policies.docs.nocProcedures.title': { en: 'NOC Procedures Manual', ar: 'دليل إجراءات NOC' },
+  'policies.docs.nocProcedures.desc': { en: 'Standard operating procedures for QIX Network Operations Center including incident response and escalation paths.', ar: 'إجراءات التشغيل القياسية لمركز عمليات شبكة QIX بما في ذلك الاستجابة للحوادث ومسارات التصعيد.' },
+  'policies.docs.escalationMatrix.title': { en: 'Escalation Matrix', ar: 'مصفوفة التصعيد' },
+  'policies.docs.escalationMatrix.desc': { en: 'Contact points and escalation procedures for technical issues and emergencies at QIX.', ar: 'نقاط الاتصال وإجراءات التصعيد للمشكلات التقنية وحالات الطوارئ في QIX.' },
+  'policies.docs.bgpCommunities.title': { en: 'BGP Communities Reference', ar: 'مرجع مجتمعات BGP' },
+  'policies.docs.bgpCommunities.desc': { en: 'Complete reference of BGP communities supported by QIX route servers for traffic engineering.', ar: 'مرجع كامل لمجتمعات BGP المدعومة من خوادم مسارات QIX لهندسة حركة المرور.' },
+  'policies.docs.ipAllocation.title': { en: 'IP Allocation Guidelines', ar: 'إرشادات تخصيص IP' },
+  'policies.docs.ipAllocation.desc': { en: 'Guidelines for IP address allocation on the QIX peering LAN for both IPv4 and IPv6.', ar: 'إرشادات تخصيص عنوان IP على شبكة LAN للتبادل في QIX لكل من IPv4 و IPv6.' },
+
+  // Policies - Compliance
+  'policies.compliance.badge': { en: 'Compliance', ar: 'الامتثال' },
+  'policies.compliance.title': { en: 'Operational & Compliance Notes', ar: 'ملاحظات التشغيل والامتثال' },
+  'policies.compliance.p1': { en: 'All QIX participants are expected to review, understand, and comply with the policies and guidelines published on this page. These documents represent the operational framework under which QIX operates.', ar: 'يُتوقع من جميع المشاركين في QIX مراجعة وفهم والامتثال للسياسات والإرشادات المنشورة في هذه الصفحة. تمثل هذه المستندات الإطار التشغيلي الذي تعمل بموجبه QIX.' },
+  'policies.compliance.p2': { en: 'QIX policies are developed in alignment with broader telecommunications regulations and guidelines established by the Communications Regulatory Authority (CRA) of Qatar. We maintain consistency with national digital infrastructure standards.', ar: 'تم تطوير سياسات QIX بما يتماشى مع لوائح وإرشادات الاتصالات الأوسع التي وضعتها هيئة تنظيم الاتصالات في قطر. نحافظ على الاتساق مع معايير البنية التحتية الرقمية الوطنية.' },
+  'policies.compliance.p3': { en: 'Policy updates are communicated to all participants via official channels. Participants are responsible for staying informed of any changes that may affect their operations.', ar: 'يتم إبلاغ تحديثات السياسات لجميع المشاركين عبر القنوات الرسمية. المشاركون مسؤولون عن البقاء على اطلاع بأي تغييرات قد تؤثر على عملياتهم.' },
+  'policies.compliance.summary.title': { en: 'Key Compliance Points', ar: 'نقاط الامتثال الرئيسية' },
+  'policies.compliance.summary.item1': { en: 'Review and accept the Peering Policy before membership', ar: 'مراجعة وقبول سياسة التبادل قبل العضوية' },
+  'policies.compliance.summary.item2': { en: 'Maintain compliance with Acceptable Use Policy at all times', ar: 'الحفاظ على الامتثال لسياسة الاستخدام المقبول في جميع الأوقات' },
+  'policies.compliance.summary.item3': { en: 'Follow technical guidelines for BGP and routing configuration', ar: 'اتباع الإرشادات التقنية لتكوين BGP والتوجيه' },
+  'policies.compliance.summary.item4': { en: 'Stay informed of policy updates via official communications', ar: 'البقاء على اطلاع بتحديثات السياسات عبر الاتصالات الرسمية' },
+
+  // Policies - FAQ
+  'policies.faq.badge': { en: 'FAQ', ar: 'الأسئلة الشائعة' },
+  'policies.faq.title': { en: 'Frequently Asked Questions', ar: 'الأسئلة الشائعة' },
+  'policies.faq.subtitle': { en: 'Common questions about QIX policies and documentation', ar: 'أسئلة شائعة حول سياسات ووثائق QIX' },
+  'policies.faq.q1': { en: 'Which policies must be signed before connecting to QIX?', ar: 'ما هي السياسات التي يجب التوقيع عليها قبل الاتصال بـ QIX؟' },
+  'policies.faq.a1': { en: 'All prospective participants must review and acknowledge acceptance of the QIX Peering Policy and Acceptable Use Policy as part of the membership application process. The Technical Guidelines should also be reviewed to ensure your network meets the requirements.', ar: 'يجب على جميع المشاركين المحتملين مراجعة والإقرار بقبول سياسة التبادل في QIX وسياسة الاستخدام المقبول كجزء من عملية طلب العضوية. يجب أيضًا مراجعة الإرشادات التقنية للتأكد من أن شبكتك تستوفي المتطلبات.' },
+  'policies.faq.q2': { en: 'How are policy updates communicated to participants?', ar: 'كيف يتم إبلاغ تحديثات السياسات للمشاركين؟' },
+  'policies.faq.a2': { en: 'Policy updates are communicated through official email notifications to all registered participants, announcements on the QIX website, and direct communication for significant changes. We recommend subscribing to our mailing list for timely updates.', ar: 'يتم إبلاغ تحديثات السياسات من خلال إشعارات البريد الإلكتروني الرسمية لجميع المشاركين المسجلين والإعلانات على موقع QIX والاتصال المباشر للتغييرات الهامة. نوصي بالاشتراك في قائمتنا البريدية للحصول على التحديثات في الوقت المناسب.' },
+  'policies.faq.q3': { en: 'Are documents available in both English and Arabic?', ar: 'هل المستندات متاحة باللغتين الإنجليزية والعربية؟' },
+  'policies.faq.a3': { en: 'Most core policy documents are available in both English and Arabic. Some technical reference documents may only be available in English. The language availability is indicated on each document card.', ar: 'معظم وثائق السياسات الأساسية متاحة باللغتين الإنجليزية والعربية. قد تكون بعض الوثائق المرجعية التقنية متاحة باللغة الإنجليزية فقط. يتم الإشارة إلى توفر اللغة على بطاقة كل مستند.' },
+  'policies.faq.q4': { en: 'Who should I contact for clarification on policies?', ar: 'بمن يجب أن أتصل لتوضيح السياسات؟' },
+  'policies.faq.a4': { en: 'For general policy questions, contact us at info@qix.qa. For technical policy clarifications, reach out to our NOC at noc@qix.qa. We aim to respond to all inquiries within 2-3 business days.', ar: 'للأسئلة العامة حول السياسات، اتصل بنا على info@qix.qa. لتوضيحات السياسات التقنية، تواصل مع NOC لدينا على noc@qix.qa. نهدف للرد على جميع الاستفسارات خلال 2-3 أيام عمل.' },
+
+  // Policies - CTA
+  'policies.cta.title': { en: 'Need Help Understanding Our Policies?', ar: 'هل تحتاج مساعدة في فهم سياساتنا؟' },
+  'policies.cta.subtitle': { en: 'Our team is ready to clarify any policy questions and guide you through the documentation.', ar: 'فريقنا مستعد لتوضيح أي أسئلة حول السياسات وإرشادك خلال الوثائق.' },
+  'policies.cta.contact': { en: 'Contact QIX', ar: 'اتصل بـ QIX' },
+  'policies.cta.connect': { en: 'How to Connect', ar: 'كيفية الاتصال' },
+
   // Common
   'common.learnMore': { en: 'Learn More', ar: 'اعرف المزيد' },
   'common.readMore': { en: 'Read More', ar: 'قراءة المزيد' },

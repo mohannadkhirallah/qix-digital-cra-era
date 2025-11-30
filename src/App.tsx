@@ -10,6 +10,7 @@ import { AboutPage } from "@/presentation/pages/About/AboutPage";
 import { WhyPeerPage } from "@/presentation/pages/WhyPeer/WhyPeerPage";
 import { ParticipantsPage } from "@/presentation/pages/Participants/ParticipantsPage";
 import { ConnectPage } from "@/presentation/pages/Connect/ConnectPage";
+import { PoliciesPage } from "@/presentation/pages/Policies/PoliciesPage";
 import { NotFoundPage } from "@/presentation/pages/NotFound/NotFoundPage";
 
 // Placeholder pages - to be implemented
@@ -40,7 +41,7 @@ const App = () => (
               <Route path="/why-peer" element={<WhyPeerPage />} />
               <Route path="/participants" element={<ParticipantsPage />} />
               <Route path="/connect" element={<ConnectPage />} />
-              <Route path="/policies" element={<PlaceholderPage title="Policies & Governance" />} />
+              <Route path="/policies" element={<PoliciesPage />} />
               <Route path="/resources" element={<PlaceholderPage title="Resources & Documents" />} />
               <Route path="/contact" element={<PlaceholderPage title="Contact & NOC" />} />
               <Route path="/privacy" element={<PlaceholderPage title="Privacy Policy" />} />
